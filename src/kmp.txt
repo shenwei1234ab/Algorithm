@@ -1,0 +1,30 @@
+
+
+最长公共元素Array={0,0,0,0,1,2,0}
+NEXT:ABCDABD={-1,0,0,0,0,1,2}
+1.若p[1] == p[5] 则next[5+1]=next[5]+1=k+1;
+
+
+i=10 j=6
+S:BBC ABCDAB ABCDABCDABDE
+P:	  ABCDABD
+
+
+i=10 j=NEXT(6)=2;
+相当于p右移4位
+S:BBC ABCDAB ABCDABCDABDE
+          ABCDABD
+
+
+i=10 j=0;
+BBC ABCDAB ABCDABCDABDE
+          ABCDABD
+
+
+i=10 j=-1:
+i=11 j=0
+BBC ABCDAB ABCDABCDABDE
+           ABCDABD
+
+
+

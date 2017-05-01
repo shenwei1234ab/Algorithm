@@ -1,0 +1,75 @@
+改错题：http://blog.sina.com.cn/s/blog_7e362ebc01018iwa.html
+static:http://zhidao.baidu.com/link?url=RrOSJOUx06x9yu7ZeiYCElLfDswBMcdQWeexkrWD_edj4L2UeGF2n6QkVtdncetmuu8mY58HYsaIf0S-n35hf0tULJ_zGKNyd09xRj9KqPm
+
+Linux:查看cpu http://blog.csdn.net/pbymw8iwm/article/details/41248991
+Linux:动态查看cpu top  多个cpu:top 后1
+   		查看内存 free
+   		
+   		
+   		静态查看cpu(内存) ps aux
+   		
+   		
+   		
+ 有道面试题大致是这样的
+
+有个高速缓冲日志类，问：下面程序有什么问题
+void test()
+{
+	static Log f("c:\\a.txt");
+	f.log("hello ");
+}  
+
+void test2()
+{
+	static Log f("c:\\a.txt");
+	f.log("world ");
+}  
+
+
+void main()
+{
+	test();
+	test2();
+}
+
+
+kmp
+he
+acsm->acsmStateTable[0].NextState[h] = 1
+acsm->acsmStateTable[1].NextState[e] = 2
+
+she
+acsm->acsmStateTable[0].NextState[s] = 3;
+acsm->acsmStateTable[3].NextState[h] = 4;
+acsm->acsmStateTable[4].NextState[e] = 5;
+
+
+his
+acsm->acsmStateTable[1].NextState[i] =6
+acsm->acsmStateTable[6].NextState[s] =7
+
+
+hers
+acsm->acsmStateTable[2].NextState[r] = 8
+acsm->acsmStateTable[8].NextState[s] = 8
+
+
+
+计算度为1(状态1,3)的failed值
+acsm->acsmStateTable[1].FailState = 0;
+acsm->acsmStateTable[3].FailState = 0;
+
+
+acsm->acsmStateTable[1].NextState[0]=0
+acsm->acsmStateTable[1].NextState[1]=0
+acsm->acsmStateTable[1].NextState[2]=0
+。。。。
+
+
+
+
+
+
+
+
+		
