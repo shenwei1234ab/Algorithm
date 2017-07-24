@@ -47,9 +47,16 @@ void test_fsm() {
 		printf("\nInvalid input expression");
 }
 
-void main()
+
+void test()
 {
 	
-	system("pause");
+}
+
+
+void main()
+{
+   //测试
+    system("pause");
 }
 
