@@ -51,6 +51,7 @@ void test_fsm() {
 void test()
 {
 	//test
+	test2
 	
 }
 
