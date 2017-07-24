@@ -50,12 +50,8 @@ void test_fsm() {
 
 void test()
 {
-	//test
-	test2
-	
+
 }
-
-
 void main()
 {
    //测试
