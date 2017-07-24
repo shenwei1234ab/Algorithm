@@ -47,7 +47,7 @@ void test_fsm() {
 		printf("\nInvalid input expression");
 }
 
-int main(int argc, char **argv)
+void main()
 {
 	
 	system("pause");
