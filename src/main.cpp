@@ -49,7 +49,7 @@ void test_fsm() {
 
 int main(int argc, char **argv)
 {
-	//test_fsm();
+	
 	system("pause");
 }
 
